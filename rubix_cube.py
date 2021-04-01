@@ -27,9 +27,10 @@ def Main():
             graphics(CUBE)
             print("Congradulations!")
             flag = False # terminate while loop.
-            
+      
+    Solve(Roll)
     return ()
-
+    
 
 """Shuffle Cube"""
 def randomizer(CUBE0):
@@ -564,7 +565,7 @@ def rotate_anti_clockwise(face):
 
 
 
-#Main() # To Run
+Main() # To Run
 
 
 
